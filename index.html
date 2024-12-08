@@ -11,7 +11,7 @@
     />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -380,7 +380,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id="qualifications">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
@@ -540,11 +540,134 @@
         </div>
       </section>
 
+      <!--==================== PROJECT ====================-->
+      <section class="project section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Relevant Project</span>
+
+        <div class="project__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PROJECT 1 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/portfolio1.jpg" alt="" class="project__img">
+              <div class="project__data">
+                <h3 class="project__title">LLM-Assisted Compatibility Test App</h3>
+                  <p class="project__description">
+                      <i class="uil uil-arrow-right"></i>
+                      Built an LLM-powered application using Google’s Gemini API and Django to analyze Android app screenshots and determine login success.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Integrated AWS services (EC2, S3) and PostgreSQL for secure and efficient backend operations.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Developed a responsive frontend with React.js, enhancing user experience and implementing robust security measures.
+                  </p>
+                  <p class="project__descriptionLast"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Delivered a scalable and cloud-based solution, showcasing expertise in full-stack development and AI-driven automation.
+                  </p>
+                  <a href="https://github.com/JishvaShah/LLM-Assisted-App-Compatibility-Test" target="_blank" class="button button--flex button--small project__button">
+                      Show
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 2 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/portfolio2.jpg" alt="" class="project__img">
+              <div class="project__data">
+                <h3 class="project__title">Recipe Vault App</h3>
+                  <p class="project__description">
+                      <i class="uil uil-arrow-right"></i>
+                      Designed and developed scalable API endpoints in Node.js for creating, saving, and managing recipes, integrated seamlessly with React for an enhanced user experience.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Implemented secure user authentication using Passport.js and JSON Web Tokens (JWT), ensuring data privacy and robust application security.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Optimized app performance by integrating Redis for caching, enabling quick access to the latest recipes.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Led the deployment process on Render, optimizing application performance, availability, and responsiveness for seamless user interaction.
+                  </p>
+                  <a href="https://github.com/JishvaShah/RecipeVaultApp" target="_blank" class="button button--flex button--small project__button">
+                      Show
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 3 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/portfolio3.jpg" alt="" class="project__img">
+              <div class="project__data">
+                <h3 class="project__title">Coffee Shop Locator</h3>
+                  <p class="project__description">
+                      <i class="uil uil-arrow-right"></i>
+                      Engineered a Coffee Shop Locator app that enables users to search for nearby coffee shops by zip code, leveraging the Google Maps API for precise location services.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Designed and implemented robust Node.js API endpoints for managing zip code data and query tracking, seamlessly integrated with a MongoDB backend.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Developed an intuitive frontend using HTML, CSS, and JavaScript, enhancing user experience with AJAX for dynamic data updates.
+                  </p>
+                  <a href="https://github.com/JishvaShah/coffee-shop-locator" target="_blank" class="button button--flex button--small project__button">
+                      Show
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 4 ====================-->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/portfolio2.jpg" alt="" class="project__img">
+              <div class="project__data">
+                <h3 class="project__title">University Review Website</h3>
+                  <p class="project__description">
+                      <i class="uil uil-arrow-right"></i>
+                      Developed a full-stack platform enabling users to submit, browse, and search university reviews, fostering informed decision-making for prospective students.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Built responsive UI components using React, Redux, and Context API, adhering to object-oriented principles for scalable and user-friendly design.
+                  </p>
+                  <p class="project__description"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Enhanced backend functionality with Spring Boot, implementing secure authentication using JWT and Bcrypt, ensuring data protection and reliability.
+                  </p>
+                  <p class="project__descriptionLast"> 
+                      <i class="uil uil-arrow-right"></i>
+                      Integrated MySQL for efficient database management and leveraged AWS S3 for seamless storage and accessibility.
+                  </p>
+                  <a href="https://github.com/JishvaShah/University-Review" target="_blank" class="button button--flex button--small project__button">
+                      Show
+                      <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-project-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-project-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services"></section>
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -562,7 +685,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>

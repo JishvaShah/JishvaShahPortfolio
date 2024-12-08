@@ -73,7 +73,19 @@ tabs.forEach(tab => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-
+var swiper = new Swiper(".project__container", {
+  cssMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable:true,
+  },
+  mousewheel: true,
+  keyboard: true,
+});
 
 /*==================== TESTIMONIAL ====================*/
 

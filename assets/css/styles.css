@@ -343,6 +343,16 @@ img {
   transition: 0.3s;
 }
 
+.button--white{
+  background-color: #fff;
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+
+.button--white:hover{
+ background-color: #fff; 
+}
+
 .button--flex1{
   display: inline-flex;
   align-items: center;
@@ -568,6 +578,10 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.project__button{
+  margin-top: var(--mb-1);
+}
+
 .project__button:hover .button__icon{
   transform: translate(.25rem);
 }
@@ -596,6 +610,34 @@ img {
 
 
 /*==================== PROJECT IN MIND ====================*/
+.discuss{
+  text-align: center;
+}
+
+.discuss__bg{
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.discuss__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.discuss__description{
+  margin-bottom: var(--mb-1-5);
+}
+
+.discuss__title,
+.discuss__description{
+  color: #fff;
+}
+
+.discuss__img{
+  width: 232px;
+  justify-self: center;
+}
+
 
 
 /*==================== TESTIMONIAL ====================*/
